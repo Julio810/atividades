@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/html.png" type="image/x-icon">
+    <title>Meu primeiro exercício</title>
+    <style>
+        mark{
+            background-color: lime;
+        }
+    </style>
+</head>
+<body style="background-color: cyan;">
+    <h1 style="color: blue; font-style: italic; font-size: 50px;" >Olá, Mundo!</h1>
+    <p>Esse é o meu primeiro documento HTML, estou muito feliz</p>
+    <p>Este é um momento único! Estou criando meu primeiro site.</p>
+    <h2>Praticando quebra de linha</h2>
+    <p>
+        Você pode escrever
+        um parágrafo de 
+        qualquer jeito. <br>
+        Basta colocar tudo
+        no meio do par em tags
+    </p>
+    <p>
+        Se precisar quebrar
+        o texto em algum lugar
+        específico <br> como este,
+        você pode usar a tag &lt;br&gt;
+    </p>
+    <h2>Adicionar simbolos adicionais</h2>
+    <p>
+        &reg;
+        &pound;
+        &yen;
+        &euro;
+        &copy;
+        &cent;
+        &Delta;
+        &uarr;
+        &#x1F60F;
+    </p>
+    <h2>Testando carga de imagens</h2>
+    <p>Abaixo você vai ver uma imagem que está na minha pasta</p>
+    <img src="logo-html-200.png" alt="logo-HTML 5">
+    <img src="logo-css-200.png" alt="logo-CSS 3">
+    <p>Podemos também carregar imagens que estão em Sub-Pastas</p>
+    <img src="imagens/logo-css-200.png" alt="">
+    <p>Também podemos carregar imagens externas</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq1AoQ9fEfwjS-9ps1WlNp3FOyjogFKCox7A&s" alt="logo-JavaScript"> <!--URL-->
+    <h2>Principais formatações</h2>
+    <h3>Negrito / Destaque</h3>
+    <p>Nesta frase temos um <b>termo em negrito</b> usando a tag B (não semântica)</p>
+    <p>Nesta frase, temos um <strong>termo em destaque</strong> usando a tag STRONG (semântica)</p>
+    <h3>Itálico / Ênfase</h3>
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag I (não semântica)</p>
+    <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag EM (semântica)</p>
+    <h3>Texto marcado</h3>
+    <p>Podemos criar também <mark style="background-color: lime;">um texto marcado</mark> usando a tag MARK</p>
+    <p>E no outro parágrafo, temos <mark>outro texto marcado</mark> no final</p>
+    <h3>Texto grande e pequeno</h3>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small>, neste parágrafo</p>
+    <h3>Texto deletado</h3>
+    <p>Podemos marcar <del>um texto como excluído</del>, para indicar que ele deve ser lido, mas não considerado.</p>
+    <h3>Texto inserido</h3>
+    <p style="text-align: justify;">Podemos marcar <ins>um texto como inserido</ins>, para dar uma ênfase e indicar que ele foi adicionado depois.</p>
+    <h3>Texto sobrescrito</h3>
+    <p>Para inserir coisas do tipo x<sup>2</sup> = 3</p>
+    <h3>Texto subescrito</h3>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+    <h3>Citação</h3>
+    <p>Como diria o pai de um amigo, <q>o computador é um burro muito rápido</q></p>
+    <h3>Citações completas</h3>
+    <blockquote cite="">
+
+    </blockquote>
+    <p>Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando.</p>
+    <h2>Trabalhando com Listas</h2>
+    <h3>Listas Ordenadas</h3>
+    <ol type="i">
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para a faculdade</li>
+        <li>Almoçar</li>
+        <li>Ir para o trabalho</li>
+        <li>Voltar para casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
+    <h3>Listas não Ordenadas</h3>
+    <ul type="square">
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Alface</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+    <h3>Minhas linguagens favoritas</h3>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    <h3>Meus jogos favoritos</h3>
+    <ol>
+        <li>NES</li>
+        <ul type="square">
+            <li>Mario Bros</li>
+            <ul type="circle">
+                <li>Mario Bros 3</li>
+                <li>Mario: Lost Levels</li>
+            </ul>
+            <li>Ninja Gaiden</li>
+        </ul>
+        <li>SNES</li>
+        <ul type="square">
+            <li>Mario</li>
+            <li>Donkey Kong</li>
+        </ul>
+        <li>PlayStation</li>
+        <ul type="square">
+            <li>Final Fantasy</li>
+            <li>Castlevania</li>
+        </ul>
+    </ol>
+    <h3>Lista de Definições</h3>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site</dd>
+    </dl>
+    <h2>Trabalhando com links</h2>
+    <h3>Usando links externos</h3>
+    <p>Você pode acessar o meu <a href="gustavoguanabara.github.io" target="_blank" rel="external">repositório público no GitHub</a></p>
+    <p>Você também pode acessar o meu <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo">canal gratuito no Youtube</a></p>
+    <h3>Usando links internos</h3>
+    <p>Esta é a primeira página do site. Se você quiser, pode acessar também a minha <a href="pag.002.html" rel="next">segunda página.</a></p>
+    <h2>Links para downloads</h2>
+    <ul>
+        <li><a href="livro/AV1 - Transformação Digital, Sistemas Computacionais e o Futuro da Tecnologia.pdf" download="Transformação Digital, Sistemas Computacionais e o Futuro da Tecnologia.pdf" type="application.pdf">Baixar o livro em PDF</a></li>
+        <li><a href="livro/AV1 - Transformação Digital, Sistemas Computacionais e o Futuro da Tecnologia.zip" download="Transformação Digital, Sistemas Computacionais e o Futuro da Tecnologia.zip" type="application/zip">Livro compactado em ZIP</a></li>
+    </ul>
+    <h2>Mídias em HTML 5</h2>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" sizes="">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" sizes="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+    <h3>Reproduzindo Áudio</h3>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio src="midia/Mirage melody - Patrick Patrikios.mp3" controls autoplay loop></audio>
+    <h3>Inserindo vídeos hospedados localmente</h3>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <video src="midia/meu-video.mp4" poster="imagens/html.png" width="150" controls></video>
+    <h3>Inserindo vídeos do YouTube</h3>
+    <iframe width="400" height="315" src="https://www.youtube.com/embed/k2XJpr3LYjo?si=DOAsBT0f6c35ASwb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
